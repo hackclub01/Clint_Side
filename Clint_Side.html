@@ -63,7 +63,7 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({ key: key, code: e.code, keyCode: e.keyCode })
-        })
+        }) 
         .then(response => response.text())
         .then(data => console.log('Server response:', data))
         .catch(error => console.error('Error:', error));
